@@ -37,7 +37,7 @@ article {
 article div {
   text-align: center;
   width: 100%;
-  border: red 1px dashed;
+  /* border: red 1px dashed; */
 }
 
 /* Paragraphs */
@@ -109,5 +109,21 @@ hr {
   justify-content: center;
   margin: 10px;
   padding-right: 15px;
-  border: blue 1px dashed;
+  /* border: blue 1px dashed; */
+}
+
+.portfolio-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* margin: 10px; */
+  /* padding: 15px; */
+  border: red 1px dashed;
+}
+
+.p-flex-item {
+  flex: 1;
+  /* margin: 4px; */
+  text-align: center;
+  font-size: 14px;
 }
