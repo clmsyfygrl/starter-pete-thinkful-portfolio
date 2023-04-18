@@ -53,6 +53,7 @@ a:hover {
 
 nav a {
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* Images */
@@ -75,4 +76,27 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding-right: 15px;
+  /* border: blue 1px dashed; */
+}
+
+.flex-nav {
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px;
+  /* border: purple 1px dashed; */
+}
+
+.flex-item {
+  flex: 1;
+  margin: 2px;
+  vertical-align: bottom;
+  /* border: black 1px dashed; */
 }
